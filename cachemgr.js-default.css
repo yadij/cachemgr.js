@@ -1,0 +1,59 @@
+/*
+    Display layout of cachemgr.js for Squid HTTP Caching Proxy
+
+    Copyright (C) 2016-2017 Amos Jeffries
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+#menu {
+  background-color: #eee;
+  border: 1px dashed #999;
+  float: left;
+  overflow: hidden;
+  padding: 3px;
+  left: 0px;
+  width: 150px;
+}
+#MGR_INDEX #content {
+  margin: 8px;
+  padding-left: 159px;
+}
+#wrap {
+  clear: both;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+  font-size: 10pt;
+  margin-bottom: 15px;
+}
+table, th, td {
+  border-width: 1px;
+  border: 1px solid black;
+  padding: 0px;
+}
+th {
+  text-strength: bold;
+}
+td {
+  border: 1px dotted black;
+  padding: 2px;
+}
+
+table.kvpairs, table.kvpairs td {
+  border: none;
+  padding: 3px;
+}
