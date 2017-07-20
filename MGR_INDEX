@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Cache Manager</title>
+<meta name="author" content="Amos Jeffries">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://raw.githubusercontent.com/yadij/cachemgr.js/master/cachemgr.js"></script>
+<script type="text/javascript" language=javascript>
+var cachemgr_host="%H";
+var cachemgr_port=%b;
+var cachemgr_user="";
+var cachemgr_password="";
+
+$(document).ready(function() {cachemgr();});
+
+</script>
+<style>
+%l
+</style>
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/yadij/cachemgr.js/master/cachemgr.js-default.css">
+</head><body id=%c>
+<header id="titles">
+<h1>Squid Cache Manager</h1>
+<h2>This is a WWW interface to the instrumentation of the Squid HTTP proxy.</h2>
+</header>
+<hr>
+
+<div id="wrap">
+<nav id="menu">menu</nav>
+<section id="content">contents</section>
+</div>
+
+<hr>
+<footer id="footer">
+<p>Generated %T by %h (%s)</p>
+<!-- %c -->
+</footer>
+</body>
+</html>
