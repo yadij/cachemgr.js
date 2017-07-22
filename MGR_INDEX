@@ -9,9 +9,6 @@ var cachemgr_host="%H";
 var cachemgr_port=%b;
 var cachemgr_user="";
 var cachemgr_password="";
-
-$(document).ready(function() {cachemgr();});
-
 </script>
 <style>
 %l

@@ -118,3 +118,4 @@ function cachemgr() {
   // make mgr:info the default display
   menuclick("info");
 }
+$(document).ready(function() {cachemgr();});
