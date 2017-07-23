@@ -20,7 +20,7 @@
 */
 
 $.ajaxSetup({cache: true});
-$.getScript("https://raw.githubusercontent.com/yadij/cachemgr.js/master/cachemgr-txt.js");
+$.getScript("https://yadij.github.io/cachemgr.js/cachemgr-txt.js");
 
 // build the cachemgr url to be used
 function url(item) {
@@ -118,4 +118,3 @@ function cachemgr() {
   // make mgr:info the default display
   menuclick("info");
 }
-$(document).ready(function() {cachemgr();});
