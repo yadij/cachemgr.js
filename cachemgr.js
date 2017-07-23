@@ -64,8 +64,11 @@ function menuclick(item) {
 
     $("#content").html(results);
 
-    if (ct == 'text/plain') {
-        $("#text").hide();
+    // default to showing the CGI view people are familiar with
+    if (ct == 'text/plain;charset=utf-8' || ct == 'text/plain') {
+      $("#cgi").hide();
+    } else {
+      $("#text").hide();
     }
   });
 }
