@@ -1,8 +1,27 @@
 # cachemgr.js
-A native management interface for Squid HTTP Proxy
+A native management interface for Squid HTTP Proxy.
+
+This tool allows you to view Squid manager reports directly in your Browser
+with display layout integrated from existing Squid error page branding.
+
+The current version of this tool provides several visualizations;
+1. the native plain-text layout as produced by Squid, or
+2. the tabular interpretation used by cachemgr.CGI tool.
+
+# Installation
+1. Download the [MGR_INDEX](MGR_INDEX) template file into your Squid errors/templates
+   folder. Usually that can be found under /usr/share/squid/ or /usr/share/squid-langpack/.
+
+2. Reconfigure Squid.
+
+If you have been using the cachemgr.CGI tool published by the Squid Project it
+will continue working and should auto-detect the existence of this tool to
+provide direct access to your proxies manager URLs.
+
+If you wish to alter the branding on the MGR_INDEX page display simply edit
+the /etc/squid/errorpages.css file used by Squid in all ERR_* template files.
 
 # License
-
     Copyright (C) 2016-2017 Amos Jeffries
       based on work by Francesco Chemolli
 
