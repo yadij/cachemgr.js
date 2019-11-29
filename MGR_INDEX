@@ -2,8 +2,8 @@
 <head>
 <title>Cache Manager</title>
 <meta name="author" content="Amos Jeffries">
-<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="//yadij.github.io/cachemgr.js/cachemgr.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://yadij.github.io/cachemgr.js/cachemgr.js" crossorigin="anonymous"></script>
 <script>
 var cachemgr_host="%H";
 var cachemgr_port=%b;
@@ -15,7 +15,7 @@ $(document).ready(function() {cachemgr();});
 <style>
 %l
 </style>
-<link rel="stylesheet" type="text/css" href="//yadij.github.io/cachemgr.js/cachemgr.js-default.css">
+<link rel="stylesheet" type="text/css" href="https://yadij.github.io/cachemgr.js/cachemgr.js-default.css">
 </head><body id=%c>
 <header id="titles">
 <h1>Squid Cache Manager</h1>
