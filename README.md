@@ -10,9 +10,12 @@ The current version of this tool provides several visualizations;
 
 # Installation
 1. Download the [MGR_INDEX](MGR_INDEX) template file into your Squid errors/templates
-   folder. Usually that can be found under /usr/share/squid/ or /usr/share/squid-langpack/.
+   folder.<br>Usually that can be found under /usr/share/squid/ or /usr/share/squid-langpack/.
 
 2. Reconfigure Squid.
+
+3. A default installation of Squid configured with ```http_port 3128``` will have its manager interface provided
+   <br>by the URL **http://localhost:3128/squid-internal-mgr/**.
 
 If you have been using the cachemgr.CGI tool published by the Squid Project it
 will continue working and should auto-detect the existence of this tool to
@@ -22,7 +25,7 @@ If you wish to alter the branding on the MGR_INDEX page display simply edit
 the /etc/squid/errorpages.css file used by Squid in all ERR_* template files.
 
 # License
-    Copyright (C) 2016-2017 Amos Jeffries
+    Copyright (C) 2016-2025 Amos Jeffries
       based on work by Francesco Chemolli
 
     This program is free software; you can redistribute it and/or modify
